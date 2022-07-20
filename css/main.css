@@ -1,0 +1,157 @@
+p{
+    margin-top: 0em;
+    margin-bottom: 1em;
+}
+
+section{
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+.header-text{
+    padding-left: 25px;
+}
+
+.profile-pic{
+    padding-top: 20px;
+    padding-right: 25px;
+}
+
+.section-divider{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.research-list li:not(:last-of-type){
+    padding: 2.5px;
+}
+
+.section-title{
+    padding: 0 0px;
+    margin: 0 auto;
+    font-weight: bold;
+    margin-bottom: 10px;
+    position: relative;
+    display: table;
+    padding: 0 10px;
+    z-index: 2;
+}
+
+.blurb-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+}
+
+.twitter-blurb{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+}
+
+
+.blurb-photo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+}
+
+.job-title{
+    margin-bottom: 0em;
+}
+
+.affil-department{
+    margin-bottom: 0em;
+}
+
+.affil-institute {
+    margin-bottom: 1em;
+}
+
+@media (min-width: 500px) {
+    .header {
+        padding: 60px;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+        align-items: flex-start;
+    }
+
+}
+
+@media (min-width: 750px) {
+    .header {
+        padding-top: 60px;
+    }
+
+}
+
+.contact-info{
+    font-family: monospace;
+}
+
+.navigation-links {
+    max-width: 1000px;
+    display: inline-flex;
+    padding-left: 0px;
+    min-width: 500px;
+    list-style-type: none;
+    font-size: 1.5rem;
+    margin-bottom: 0px;
+}
+
+.navigation-links li:not(:last-of-type) {
+    padding-right: 20px;
+}
+
+.external-links {
+    display: inline-flex;
+    padding-left: 0px;
+    min-width: 500px;
+    list-style-type: none;
+}
+
+.external-links li:not(:last-of-type) {
+    padding-right: 20px;
+}
+
+.publications-list{
+    font-size: 1.0rem;
+}
+
+.publications-list li:not(:last-of-type) {
+    padding-bottom: 5px;
+}
+
+.container {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.twitter-blurb{
+    text-align: left;
+    align-items: center;
+}
+
+.twitter-blurb .twitter-media{
+    margin: 0 auto;
+    max-width: 480px;
+}
+
+.twitter-blurb .thread-description{
+    max-width: 370px;
+}
+
